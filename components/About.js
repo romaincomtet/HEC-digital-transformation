@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function About() {
   return (
-    <div id="about" className="h-[90vh] bg-white  flex-col flex pt-10">
+    <div id="about" className="h-[100vh] bg-white  flex-col flex p-10">
       <div className="h-[50vh] flex w-full p-10">
         <div className="w-[40%] h-full bg-red-100">cdscdsdsc</div>
         <div className="w-[60%] h-full bg-[#F5D307] rounded-3xl"></div>
