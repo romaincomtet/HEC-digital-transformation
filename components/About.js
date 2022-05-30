@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
 import { useState } from "react";
 
 export default function About() {
@@ -40,7 +38,7 @@ function Carousel() {
             </p>
             <div className="mt-10">
               <button className="text-black bg-white px-5 py-2 rounded-xl text-lg">
-                How it's work?
+                How it&apos;s work?
               </button>
             </div>
           </div>

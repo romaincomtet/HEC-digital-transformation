@@ -1,6 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
-
 const rewardArray = [
   { src: "/assets/reward1.png", title: "STEP 1 :", text: "Completing quests" },
   {

@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
 import About from "../components/About";
 import Rewards from "../components/Rewards";
 import Home from "../components/Home";

@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
 import { useState } from "react";
 
 export default function OurConcept() {
@@ -12,24 +10,24 @@ export default function OurConcept() {
       <div className="flex-1 flex flex-col w-full p-10 text-carefour-blue justify-around">
         <div className="flex h-1/2 justify-between items-center">
           <div className="w-1/2">
-            Carrefour compass is a unique initiative by Carrefour to help it's
-            customers and consumers to learn and to know more about its
-            sustainability initiatives and to be develop better relationships
-            between consumers and producers. With our stories of farm to fork we
-            bring you closer to the sustainability practices and we all move one
-            step forward towards the responsible living.
+            Carrefour compass is a unique initiative by Carrefour to help
+            it&apos;s customers and consumers to learn and to know more about
+            its sustainability initiatives and to be develop better
+            relationships between consumers and producers. With our stories of
+            farm to fork we bring you closer to the sustainability practices and
+            we all move one step forward towards the responsible living.
           </div>
         </div>
         <div className="flex h-1/2 justify-between items-center">
           <div className="w-1/2"></div>
 
           <div className="w-1/2">
-            Carrefour compass is a unique initiative by Carrefour to help it's
-            customers and consumers to learn and to know more about its
-            sustainability initiatives and to be develop better relationships
-            between consumers and producers. With our stories of farm to fork we
-            bring you closer to the sustainability practices and we all move one
-            step forward towards the responsible living.
+            Carrefour compass is a unique initiative by Carrefour to help
+            it&apos;s customers and consumers to learn and to know more about
+            its sustainability initiatives and to be develop better
+            relationships between consumers and producers. With our stories of
+            farm to fork we bring you closer to the sustainability practices and
+            we all move one step forward towards the responsible living.
           </div>
         </div>
       </div>

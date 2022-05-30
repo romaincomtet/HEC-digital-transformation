@@ -1,6 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
-
 const FooterSection = [
   {
     sections: [
@@ -88,7 +85,10 @@ export default function Footer() {
       <div className="flex justify-center border-t border-b border-white/20 p-4">
         <div className="w-[80%] flex justify-evenly">
           {footerHastag.map((item, index) => (
-            <div className="font-bold text-white border border-white rounded-xl py-1 px-3">
+            <div
+              className="font-bold text-white border border-white rounded-xl py-1 px-3"
+              key={index}
+            >
               {item.text}
             </div>
           ))}
@@ -97,7 +97,9 @@ export default function Footer() {
       <div className="flex justify-center pt-8">
         <div className="w-[80%] flex justify-evenly">
           {more.map((item, index) => (
-            <div className="text-sm text-white py-1 px-3">{item.text}</div>
+            <div className="text-sm text-white py-1 px-3" key={index}>
+              {item.text}
+            </div>
           ))}
         </div>
       </div>

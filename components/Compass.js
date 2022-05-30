@@ -1,6 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
-
 const contributorArray = [
   { src: "/assets/Michael.png", name: "Michael Scrivner" },
   { src: "/assets/Tejashree.png", name: "Tejashree Bhatia" },
