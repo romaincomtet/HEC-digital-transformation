@@ -1,39 +1,74 @@
 const contributorArray = [
-  { src: "/assets/Michael.png", name: "Michael Scrivner" },
-  { src: "/assets/Tejashree.png", name: "Tejashree Bhatia" },
-  { src: "/assets/romain.png", name: "Romain Comtet" },
-  { src: "/assets/floriant.png", name: "Florian Pichard" },
+  {
+    src: "/assets/Michael.png",
+    name: "Michael Scrivner",
+    email: "michael.scrivner@hec.edu",
+    profession:
+      "Masters in Marketing at HEC Paris Product Marketing Manager for Tech and Gaming",
+  },
+  {
+    src: "/assets/Tejashree.png",
+    name: "Tejashree Bhatia",
+    email: "tejashree.bhatia@gmail.com",
+    profession:
+      "Executive MBA at HEC Paris Business strategy Consultant for a start-up",
+  },
+  {
+    src: "/assets/romain.png",
+    name: "Romain Comtet",
+    email: "romain.comtet@epitech.eu",
+    profession: "Student at EPITECH freelance Full-stack Developper",
+  },
+  {
+    src: "/assets/floriant.png",
+    name: "Florian Pichard",
+    email: "florianpichardpro@gmail.com",
+    profession: "Student at eartsup Junior Product Designer",
+  },
 ];
 
 export default function Compass() {
   return (
     <div
-      id="compass"
-      className="h-[80vh] bg-carefour-blue rounded-3xl p-10 flex-col flex"
+      id="aboutUs"
+      className="bg-carefour-blue rounded-3xl p-10 flex-col flex"
     >
-      <div className="flex items-center justify-center mt-10">
-        <div className="bg-white p-4 rounded-xl">
-          <img src="/logo.png" width={400} className="mt-[10px]" />
+      <div className=" flex w-full h-fit">
+        <div className="w-[40%] flex-1 p-10 flex-col flex justify-between pb-20 ">
+          <h2 className="text-white font-bold text-5xl">About Us</h2>
+          <p className="text-white">
+            Team Horizon (Group 6) is dedicated to driving awareness of
+            Carrefour Compass in The Sandbox through fun, rewarding, and
+            engaging experiences.
+            <br /> <br />
+            Our surveys and research found that most respondents are unaware or
+            unconvinced by the metaverse and corporate sustainability claims. By
+            telling farm-to-fork sustainability stories in the metaverse,
+            Carrefour is uniquely positioned to increase brand awareness,
+            loyalty, and sales in the near and long term.
+          </p>
+        </div>
+        <div className="w-[60%] h-full p-10 rounded-3xl">
+          <img src={"/assets/aboutUsImage.png"} className="w-full" />
         </div>
       </div>
-      <div className="flex justify-center mt-10">
-        <div className="text-white w-[80%]">
-          Team Horizon offers to address the pain points of the customers while
-          shopping groceries (in-stores or on online) by proposing a solution in
-          the Metaverse which will make the whole experience fun, engaging and
-          exciting for shoppers, and insightful and transparent to Carrefour and
-          its partners. The first step to this is to gain customer attraction
-          and engagement in the Metaverse through gamification.
-        </div>
-      </div>
-      <div className=" flex justify-around mt-10 flex-1 items-center">
+      <div className="flex justify-around m-10 flex-1">
         {contributorArray.map((item, index) => (
           <div
-            className="bg-white text-carefour-blue p-2 rounded-2xl"
+            className="text-white flex flex-col justify-start items-center max-w-[250px]"
             key={index}
           >
-            <img src={item.src} className="h-[220px]" />
-            <p className="text-center mt-1">{item.name}</p>
+            <a
+              href={`mailto:${item.email}`}
+              className="text-center mt-1 mb-4 decoration-white underline decoration-2"
+            >
+              {item.email}
+            </a>
+            <div className="bg-white text-carefour-blue w-fit p-2 rounded-2xl">
+              <img src={item.src} className="h-[220px]" />
+              <p className="text-center mt-1 font-semibold">{item.name}</p>
+            </div>
+            <p className="text-center mt-4">{item.profession}</p>
           </div>
         ))}
       </div>

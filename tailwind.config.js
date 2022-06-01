@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         "carefour-blue": "#254F9A",
+        "carefour-yellow": "#F4D206",
       },
     },
   },

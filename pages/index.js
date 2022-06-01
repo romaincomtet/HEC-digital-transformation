@@ -1,4 +1,3 @@
-import About from "../components/About";
 import Rewards from "../components/Rewards";
 import Home from "../components/Home";
 import PartnerBrand from "../components/PartnerBrand";
@@ -12,7 +11,6 @@ export default function Index() {
     <div>
       <Home />
       <PartnerBrand />
-      <About />
       <OurConcept />
       <Rewards />
       <Roadmap />

@@ -1,16 +1,26 @@
+import { useState } from "react";
+
 const rewardArray = [
-  { src: "/assets/reward1.png", title: "STEP 1 :", text: "Completing quests" },
   {
-    src: "/assets/reward2.png",
+    src: ["/assets/reward1.png", "/assets/reward1.2.png"],
+    title: "STEP 1 :",
+    text: "Completing quests",
+  },
+  {
+    src: ["/assets/reward2.png", "/assets/reward2.2.png"],
     title: "STEP 2 :",
-    text: "Earning raffle ticket",
+    text: "Earn Raffle Tickets",
   },
   {
-    src: "/assets/reward3.png",
-    title: "STEP 3 :",
-    text: "SAND Cryptocurrency",
+    src: ["/assets/reward3.png", "/assets/reward3.2.png"],
+    title: "REWARD 1 :",
+    text: "Win SAND Cryptocurrency",
   },
-  { src: "/assets/reward4.png", title: "STEP 4 :", text: "NFTs" },
+  {
+    src: ["/assets/reward4.png", "/assets/reward4.2.png"],
+    title: "REWARD 2 :",
+    text: "Get Unique NFTs",
+  },
 ];
 
 export default function Rewards() {
@@ -21,23 +31,37 @@ export default function Rewards() {
     >
       <div className="m-14 flex-col flex h-[30%] justify-between">
         <h2 className="text-white font-bold text-5xl">Rewards</h2>
-        <p className="p-0 m-0 text-white text-xl">
-          The user has fun while completing the quest and story, earning raffle
-          tickets for SAND currency. They also think it would be fun to play
-          through with their friends and family. Pains: They were worried that
-          they might not win and earn any rewards. Also, they might forget how
-          to use raffle tickets for the SAND lottery. (Fake text)
-        </p>
+        <div className="flex justify-center">
+          <p className="p-0 m-0 text-white text-xl w-[70%] ">
+            After completing fun sustainability quests in Carrefour Compass,
+            players earn raffle tickets that provide a chance to win SAND
+            cryptocurrency. In turn, SAND can be sold for real money or used to
+            buy NFTs in The Sandbox. These unique NFTs can be worn or used as
+            assets in the player&apos;s own LAND.
+          </p>
+        </div>
       </div>
       <div className="mb-14 mx-14 flex flex-1 justify-around items-center">
         {rewardArray.map((item, index) => (
-          <div className="text-white text-center" key={index}>
-            <h4>{item.title}</h4>
-            <p className="mb-2">{item.text}</p>
-            <img src={item.src} />
-          </div>
+          <RewardComponent item={item} key={index} />
         ))}
       </div>
     </div>
   );
 }
+
+const RewardComponent = ({ item }) => {
+  const [show, setShow] = useState(false);
+  console.log(show);
+  return (
+    <div className="text-white text-center font-semibold">
+      <h4>{item.title}</h4>
+      <p className="mb-2">{item.text}</p>
+      <img
+        src={show ? item.src[1] : item.src[0]}
+        onMouseEnter={() => setShow(true)}
+        onMouseLeave={() => setShow(false)}
+      />
+    </div>
+  );
+};

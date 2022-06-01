@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function OurConcept() {
   return (
-    <div id="ourConcept" className="h-[80vh] bg-white  flex-col flex p-10">
+    <div id="ourConcept" className=" bg-white  flex-col flex p-20">
       <h2 className="text-carefour-blue font-bold text-5xl mt-10">
         Our Concept
       </h2>
@@ -10,24 +10,22 @@ export default function OurConcept() {
       <div className="flex-1 flex flex-col w-full p-10 text-carefour-blue justify-around">
         <div className="flex h-1/2 justify-between items-center">
           <div className="w-1/2">
-            Carrefour compass is a unique initiative by Carrefour to help
-            it&apos;s customers and consumers to learn and to know more about
-            its sustainability initiatives and to be develop better
-            relationships between consumers and producers. With our stories of
-            farm to fork we bring you closer to the sustainability practices and
-            we all move one step forward towards the responsible living.
+            Carrefour Compass will attract shoppers to the metaverse through
+            playable sustainability stories that provide a chance to earn SAND
+            cryptocurrency and exclusive NFTs. Each sustainability story and
+            subsequent quests will be built around Carrefour&apos;s real-world
+            sustainability initiatives.
           </div>
         </div>
         <div className="flex h-1/2 justify-between items-center">
           <div className="w-1/2"></div>
 
           <div className="w-1/2">
-            Carrefour compass is a unique initiative by Carrefour to help
-            it&apos;s customers and consumers to learn and to know more about
-            its sustainability initiatives and to be develop better
-            relationships between consumers and producers. With our stories of
-            farm to fork we bring you closer to the sustainability practices and
-            we all move one step forward towards the responsible living.
+            New sustainability stories will launch with exclusive NFT
+            collections related to the CSR initiative at hand. For example,
+            NFBees can be utilized as NPCs in a story about Carrefour&apos;s
+            efforts to reduce CO2 emissions. The possibilities for telling
+            sustainability stories with NFTs are limitless.
           </div>
         </div>
       </div>

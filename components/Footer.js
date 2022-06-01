@@ -5,7 +5,7 @@ const FooterSection = [
       { route: undefined, text: "Les points de vente" },
       { route: undefined, text: "La gouvernance de Carrefour" },
       { route: undefined, text: "Fondation et Solidarité" },
-      { route: undefined, text: "L’histoire de Carrefour" },
+      { route: undefined, text: "L&apos;histoire de Carrefour" },
       { route: undefined, text: "Stratégie Carrefour 2022" },
       { route: undefined, text: "La transition alimentaire" },
       { route: undefined, text: "Stratégie Digital Retail 2026" },
@@ -16,7 +16,7 @@ const FooterSection = [
     sections: [
       { route: undefined, text: "Espace actionnaires" },
       { route: undefined, text: "Assemblée Générale" },
-      { route: undefined, text: "L’action Carrefour" },
+      { route: undefined, text: "L&apos;action Carrefour" },
       { route: undefined, text: "Publication financières" },
       { route: undefined, text: "Informations réglementées" },
     ],
@@ -30,7 +30,7 @@ const FooterSection = [
       { route: undefined, text: "Roadmap" },
       { route: undefined, text: "Carrefour Compass" },
       { route: undefined, text: "Partner" },
-      { route: undefined, text: "How it’s work" },
+      { route: undefined, text: "How it&apos;s work" },
     ],
     name: "Compass",
   },
@@ -61,14 +61,14 @@ const more = [
   { text: "Mentions légales", route: undefined },
   { text: "Politique des cookies", route: undefined },
   { text: "Politique de confidentialité", route: undefined },
-  { text: "Déclaration d’accessibilité", route: undefined },
+  { text: "Déclaration d&apos;accessibilité", route: undefined },
 ];
 
 export default function Footer() {
   return (
     <div
       id="footer"
-      className=" bg-carefour-blue rounded-t-3xl p-10 flex-col flex"
+      className="bg-carefour-blue rounded-t-3xl p-10 flex-col flex"
     >
       <div className="flex justify-around pb-10">
         {FooterSection.map((item, index) => (
