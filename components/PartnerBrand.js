@@ -29,7 +29,7 @@ export default function PartnerBrand({
   return (
     <>
       <div
-        id="brand"
+        id="partner"
         className={`h-fit ${colorCss} flex justify-around items-center py-5 rounded-xl md:hidden`}
       >
         <div className="flex flex-col w-full ">
@@ -53,7 +53,7 @@ export default function PartnerBrand({
         </div>
       </div>
       <div
-        id="brand"
+        id="partner"
         className={`h-[calc(100vh-80vh)] ${colorCss} hidden md:flex justify-around items-center rounded-2xl`}
       >
         {brandDefault.map((item, index) => {

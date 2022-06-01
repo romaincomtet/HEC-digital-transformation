@@ -16,8 +16,9 @@ export default function Index() {
       <Roadmap />
       <Compass />
       <PartnerBrand colorCss="bg-white" textColorCss="text-carefour-blue" />
+      <Footer />
       {/* 
-      {/* <Footer /> */}
+      {/*  */}
     </div>
   );
 }

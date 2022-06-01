@@ -53,10 +53,7 @@ export default function Home() {
       </div>
 
       {/* desktop */}
-      <div
-        id="home"
-        className="h-[calc(100vh-30vh)] bg-white p-14 hidden md:flex"
-      >
+      <div id="home" className="h-fit bg-white p-14 hidden md:flex">
         <div className="w-[40%] h-full flex-col flex justify-between text-carefour-blue pr-10">
           <h2 className="font-bold text-5xl p-5">
             Introducing Carrefour Compass
