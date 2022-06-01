@@ -3,27 +3,31 @@ const contributorArray = [
     src: "/assets/Michael.png",
     name: "Michael Scrivner",
     email: "michael.scrivner@hec.edu",
-    profession:
-      "Masters in Marketing at HEC Paris Product Marketing Manager for Tech and Gaming",
+    profession: [
+      "Masters in Marketing at HEC Paris",
+      "Product Marketing Manager for Tech and Gaming",
+    ],
   },
   {
     src: "/assets/Tejashree.png",
     name: "Tejashree Bhatia",
     email: "tejashree.bhatia@gmail.com",
-    profession:
-      "Executive MBA at HEC Paris Business strategy Consultant for a start-up",
+    profession: [
+      "Executive MBA at HEC Paris",
+      "Business strategy Consultant for a start-up",
+    ],
   },
   {
     src: "/assets/romain.png",
     name: "Romain Comtet",
     email: "romain.comtet@epitech.eu",
-    profession: "Student at EPITECH freelance Full-stack Developper",
+    profession: ["Student at EPITECH", "Full-stack Freelance Developper"],
   },
   {
     src: "/assets/floriant.png",
     name: "Florian Pichard",
     email: "florianpichardpro@gmail.com",
-    profession: "Student at eartsup Junior Product Designer",
+    profession: ["Student at eartsup", "Junior Product Designer"],
   },
 ];
 
@@ -68,7 +72,13 @@ export default function Compass() {
               <img src={item.src} className="h-[220px]" />
               <p className="text-center mt-1 font-semibold">{item.name}</p>
             </div>
-            <p className="text-center mt-4">{item.profession}</p>
+            <div className="mt-4">
+              {item.profession.map((t, i) => (
+                <p className="text-center" key={i}>
+                  {t}
+                </p>
+              ))}
+            </div>
           </div>
         ))}
       </div>

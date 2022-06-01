@@ -7,8 +7,8 @@ export default function OurConcept() {
         Our Concept
       </h2>
 
-      <div className="flex-1 flex flex-col w-full p-10 text-carefour-blue justify-around">
-        <div className="flex h-1/2 justify-between items-center">
+      <div className="flex flex-col w-full p-10 my-20 text-carefour-blue justify-around">
+        <div className="flex h-1/2 justify-between items-center p-10">
           <div className="w-1/2">
             Carrefour Compass will attract shoppers to the metaverse through
             playable sustainability stories that provide a chance to earn SAND
@@ -17,7 +17,7 @@ export default function OurConcept() {
             sustainability initiatives.
           </div>
         </div>
-        <div className="flex h-1/2 justify-between items-center">
+        <div className="flex h-1/2 justify-between items-center p-10">
           <div className="w-1/2"></div>
 
           <div className="w-1/2">

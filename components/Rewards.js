@@ -52,16 +52,19 @@ export default function Rewards() {
 
 const RewardComponent = ({ item }) => {
   const [show, setShow] = useState(false);
-  console.log(show);
+
   return (
     <div className="text-white text-center font-semibold">
       <h4>{item.title}</h4>
       <p className="mb-2">{item.text}</p>
-      <img
-        src={show ? item.src[1] : item.src[0]}
-        onMouseEnter={() => setShow(true)}
-        onMouseLeave={() => setShow(false)}
-      />
+      <div className="w-fit shadow-[10px_12px_10px_-4px_#F4D206] rounded-3xl">
+        <img
+          src={show ? item.src[1] : item.src[0]}
+          // style={{ dropShadow: "10px 10px 1px #F4D206" }}
+          onMouseEnter={() => setShow(true)}
+          onMouseLeave={() => setShow(false)}
+        />
+      </div>
     </div>
   );
 };
