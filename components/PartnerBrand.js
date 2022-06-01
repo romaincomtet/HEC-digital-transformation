@@ -2,7 +2,7 @@ const brandDefault = [
   { type: "image", src: "/assets/filierequalite.png" },
   { type: "image", src: "/assets/atforfood.png" },
   { type: "image", src: "/assets/carefourBio.png" },
-  { type: "text", text: "Our partner" },
+  { type: "text", text: "Our partners" },
   { type: "image", src: "/assets/S.png" },
   { type: "image", src: "/assets/refletdefrance.png" },
   { type: "image", src: "/assets/carefourBio.png" },
