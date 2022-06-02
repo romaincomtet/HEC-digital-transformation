@@ -34,7 +34,7 @@ export default function PartnerBrand({
       >
         <div className="flex flex-col w-full ">
           {brandDefaultMobile.map((arr, i) => (
-            <div className="flex justify-around py-2">
+            <div className="flex justify-around py-2" key={i}>
               {arr.map((item, index) => {
                 return item.type === "image" ? (
                   <div className="" key={index}>
