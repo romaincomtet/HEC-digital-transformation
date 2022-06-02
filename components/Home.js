@@ -13,7 +13,7 @@ export default function Home() {
     <>
       {/* mobile */}
       <div id="home" className="bg-white p-2 pb-5 flex flex-col md:hidden">
-        <h2 className="font-bold text-start text-carefour-blue text-3xl text-center">
+        <h2 className="font-bold text-start text-carefour-blue text-3xl mt-5 text-center">
           Introducing Carrefour Compass
         </h2>
         <p className="text-sm py-5 text-carefour-blue text-start">

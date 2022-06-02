@@ -6,7 +6,7 @@ export default function OurConcept() {
       {/* mobile */}
       <div
         id="ourConcept"
-        className=" bg-white  flex-col flex md:hidden py-5 px-2"
+        className=" bg-white  flex-col flex md:hidden pt-5 pb-14 px-2"
       >
         <h2 className="text-carefour-blue font-bold text-3xl text-center mt-5">
           Our Concept
