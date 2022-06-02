@@ -6,24 +6,24 @@ import { useRouter } from "next/router";
 const FooterSection = [
   {
     sections: [
-      { route: undefined, text: "Les activités de Carrefour" },
-      { route: undefined, text: "Les points de vente" },
-      { route: undefined, text: "La gouvernance de Carrefour" },
-      { route: undefined, text: "Fondation et Solidarité" },
-      { route: undefined, text: "L'histoire de Carrefour" },
-      { route: undefined, text: "Stratégie Carrefour 2022" },
-      { route: undefined, text: "La transition alimentaire" },
-      { route: undefined, text: "Stratégie Digital Retail 2026" },
+      { route: undefined, text: "Carrefour's activities" },
+      { route: undefined, text: "The points of sale" },
+      { route: undefined, text: "Carrefour's governance" },
+      { route: undefined, text: "Foundation and Solidarity" },
+      { route: undefined, text: "The history of Carrefour" },
+      { route: undefined, text: "Carrefour 2022 strategy" },
+      { route: undefined, text: "The food transition" },
+      { route: undefined, text: "Digital Retail Strategy 2026" },
     ],
     name: "Groupe",
   },
   {
     sections: [
-      { route: undefined, text: "Espace actionnaires" },
-      { route: undefined, text: "Assemblée Générale" },
-      { route: undefined, text: "L'action Carrefour" },
-      { route: undefined, text: "Publication financières" },
-      { route: undefined, text: "Informations réglementées" },
+      { route: undefined, text: "Shareholder's corner" },
+      { route: undefined, text: "Annual General Meeting" },
+      { route: undefined, text: "The Carrefour share" },
+      { route: undefined, text: "Financial publications" },
+      { route: undefined, text: "Regulated information" },
     ],
     name: "Groupe",
   },
@@ -41,15 +41,15 @@ const FooterSection = [
   },
   {
     sections: [
-      { route: undefined, text: "Toutes les actualités" },
-      { route: undefined, text: "Blog Horizons" },
+      { route: undefined, text: "All the news" },
+      { route: undefined, text: "Horizons blog" },
     ],
     name: "Newsroom",
   },
   {
     sections: [
       { route: undefined, text: "Act For Change" },
-      { route: undefined, text: "Diversité" },
+      { route: undefined, text: "Diversity" },
     ],
     name: "RH",
   },
@@ -58,19 +58,19 @@ const FooterSection = [
 const FooterSectionMobile = [
   {
     sections: [
-      { route: undefined, text: "Les activités de Carrefour" },
-      { route: undefined, text: "Les points de vente" },
-      { route: undefined, text: "La gouvernance de Carrefour" },
-      { route: undefined, text: "Fondation et Solidarité" },
-      { route: undefined, text: "L'histoire de Carrefour" },
-      { route: undefined, text: "Stratégie Carrefour 2022" },
-      { route: undefined, text: "La transition alimentaire" },
-      { route: undefined, text: "Stratégie Digital Retail 2026" },
-      { route: undefined, text: "Espace actionnaires" },
-      { route: undefined, text: "Assemblée Générale" },
-      { route: undefined, text: "L'action Carrefour" },
-      { route: undefined, text: "Publication financières" },
-      { route: undefined, text: "Informations réglementées" },
+      { route: undefined, text: "Carrefour's activities" },
+      { route: undefined, text: "The points of sale" },
+      { route: undefined, text: "Carrefour's governance" },
+      { route: undefined, text: "Foundation and Solidarity" },
+      { route: undefined, text: "The history of Carrefour" },
+      { route: undefined, text: "Carrefour 2022 strategy" },
+      { route: undefined, text: "The food transition" },
+      { route: undefined, text: "Digital Retail Strategy 2026" },
+      { route: undefined, text: "Shareholder's corner" },
+      { route: undefined, text: "Annual General Meeting" },
+      { route: undefined, text: "The Carrefour share" },
+      { route: undefined, text: "Financial publications" },
+      { route: undefined, text: "Regulated information" },
     ],
     name: "Groupe",
   },
@@ -88,32 +88,32 @@ const FooterSectionMobile = [
   },
   {
     sections: [
-      { route: undefined, text: "Toutes les actualités" },
-      { route: undefined, text: "Blog Horizons" },
+      { route: undefined, text: "All the news" },
+      { route: undefined, text: "Horizons blog" },
     ],
     name: "Newsroom",
   },
   {
     sections: [
       { route: undefined, text: "Act For Change" },
-      { route: undefined, text: "Diversité" },
+      { route: undefined, text: "Diversity" },
     ],
     name: "RH",
   },
 ];
 
 const footerHastag = [
-  { text: "#Mieux Produire", route: undefined },
-  { text: "#Mieux Manger", route: undefined },
-  { text: "#Mieux Consommer", route: undefined },
-  { text: "#Imaginer Le Futur", route: undefined },
+  { text: "#Better Produce", route: undefined },
+  { text: "#Eat Better", route: undefined },
+  { text: "#Better Consumption", route: undefined },
+  { text: "#Imagining the Future", route: undefined },
 ];
 
 const more = [
-  { text: "Mentions légales", route: undefined },
-  { text: "Politique des cookies", route: undefined },
-  { text: "Politique de confidentialité", route: undefined },
-  { text: "Déclaration d'accessibilité", route: undefined },
+  { text: "Legal Notice", route: undefined },
+  { text: "Cookie policy", route: undefined },
+  { text: "Privacy policy", route: undefined },
+  { text: "Accessibility statement", route: undefined },
 ];
 
 export default function Footer() {
