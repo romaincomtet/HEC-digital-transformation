@@ -36,7 +36,7 @@ export default function Home() {
             preload="none"
           >
             <source src={"/assets/projectVideo.mp4"} type="video/mp4" />
-            Sorry, your browser doesn't support embedded videos.
+            Sorry, your browser doesn&apos;t support embedded videos.
           </video>
         </div>
 
