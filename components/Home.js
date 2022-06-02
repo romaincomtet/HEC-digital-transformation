@@ -36,7 +36,11 @@ export default function Home() {
             autobuffer="true"
             preload="none"
           >
-            <source src={"/assets/projectVideo.mp4"} type="video/mp4" />
+            <source
+              src="/assets/Carrefour_Compass_intro3.webm"
+              type="video/webm"
+            />
+            <source src="/assets/projectVideo.mp4" type="video/mp4" />
             Sorry, your browser doesn&apos;t support embedded videos.
           </video>
         </div>
