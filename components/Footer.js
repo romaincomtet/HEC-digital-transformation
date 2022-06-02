@@ -129,20 +129,18 @@ export default function Footer() {
             <FooterComponentMobile item={item} key={index} />
           ))}
         </div>
-        <div className="flex justify-center border-t border-b border-white/20 p-4">
-          <div className="w-[80%] flex justify-evenly">
-            {footerHastag.map((item, index) => (
-              <div
-                className="font-bold text-white border border-white rounded-xl py-1 px-3"
-                key={index}
-              >
-                {item.text}
-              </div>
-            ))}
-          </div>
+        <div className="flex items-center flex-col border-t border-b border-white/20 p-4">
+          {footerHastag.map((item, index) => (
+            <div
+              className="font-bold w-[80%] text-white border text-center border-white rounded-xl py-1 px-3 my-1"
+              key={index}
+            >
+              {item.text}
+            </div>
+          ))}
         </div>
-        <div className="flex justify-center pt-8">
-          <div className="w-[80%] flex justify-evenly">
+        <div className="flex flex-col items-center pt-5">
+          <div className="w-[80%]">
             {more.map((item, index) => (
               <div className="text-sm text-white py-1 px-3" key={index}>
                 {item.text}
