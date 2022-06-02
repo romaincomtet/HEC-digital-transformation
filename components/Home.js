@@ -30,6 +30,7 @@ export default function Home() {
         </p>
         <div className="h-full w-full flex items-center rounded-xl">
           <video
+            id="videoMobile"
             controls
             poster="/assets/defaultVideoPreview.png"
             autobuffer="true"
@@ -91,7 +92,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-[60%] h-full flex items-center">
-          <video controls className="w-full rounded-3xl">
+          <video controls className="w-full rounded-3xl" id="video">
             <source src={"/assets/projectVideo.mp4"} type="video/mp4" />
           </video>
         </div>
