@@ -15,7 +15,7 @@ export default function OurConcept() {
         <div className="text-carefour-blue mt-5 text-md px-4">
           Carrefour Compass will attract shoppers to the metaverse through
           playable sustainability stories that provide a chance to earn SAND
-          cryptocurrency and exclusive NFTs. Each sustainability story and
+          cryptocurrency and buy exclusive NFTs. Each sustainability story and
           subsequent quests will be built around Carrefour&apos;s real-world
           sustainability initiatives.
         </div>

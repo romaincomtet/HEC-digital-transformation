@@ -16,7 +16,7 @@ export default function Home() {
         <h2 className="font-bold text-start text-carefour-blue text-3xl mt-5 text-center">
           Introducing Carrefour Compass
         </h2>
-        <p className="text-sm py-5 text-carefour-blue text-start">
+        <p className="text-sm py-5 text-carefour-blue text-start text-center">
           Play, earn, and create for free in the{" "}
           <span className="font-bold">
             world&apos;s first metaverse experience about food sustainability.
@@ -24,18 +24,23 @@ export default function Home() {
           <br />
           Complete quests to earn raffle tickets for cryptocurrency that you can
           spend on NFTs or sell for real money.
-          <br />
           <span className="font-bold">
             Carrefour Compass is your pass to the future!
           </span>
         </p>
-        <div className="h-full w-full flex items-center">
-          <video controls className="w-full rounded-xl">
+        <div className="h-full w-full flex items-center rounded-xl">
+          <video
+            controls
+            poster="/assets/defaultVideoPreview.png"
+            autobuffer="true"
+            preload="none"
+          >
             <source src={"/assets/projectVideo.mp4"} type="video/mp4" />
+            Sorry, your browser doesn't support embedded videos.
           </video>
         </div>
 
-        <div className="flex mt-4">
+        <div className="flex mt-4 justify-center">
           {images.map((item, index) => (
             <img src={item.src} w={32} key={index} className={"p-5"} />
           ))}
